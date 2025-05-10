@@ -1,0 +1,17 @@
+# Ignore datasets and data folders
+data/
+outputs/runs
+outputs/saved_images
+outputs/checkpoints
+outputs/best_model.onxx
+README.md
+
+# Optional: Ignore common temporary or backup files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Optional: Ignore Python cache
+__pycache__/
+*.py[cod]

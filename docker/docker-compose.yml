@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  segformer:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    image: segmentation_task
+    container_name: seg-container
+    volumes:
+      - ..:/home/seg-ws
+    working_dir: /home/seg-ws

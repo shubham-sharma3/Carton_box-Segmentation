@@ -1,0 +1,11 @@
+transformers==4.51.3
+datasets==3.5.1
+pycocotools==2.0.8
+albumentations==2.0.6
+numpy==2.2.5
+pillow==11.0.0
+scikit-learn==1.6.1
+matplotlib==3.10.1
+onnxruntime==1.21.1
+evaluate==0.4.3
+tensorboard==2.19.0
